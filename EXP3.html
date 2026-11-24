@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KL Admissions</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<header>
+<h2>KL Admissions</h2>
+<nav>
+<a href="#">Programmes</a> |
+<a href="#">Apply Online</a> |
+<a href="#">Track Status</a>
+</nav>
+</header>
+<main>
+<h2>Online Admission Application</h2>
+<p>All fields marked * are required.</p>
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+<label for="name">Full Name *</label>
+<input type="text" id="name" required>
+<br><br>
+<label for="email">Email Address *</label>
+<input type="email" id="email" required>
+<br><br>
+<label for="mobile">Mobile Number *</label>
+<input type="tel" id="mobile" required>
+</fieldset>
+<br>
+<fieldset>
+<legend>Academic Preferences</legend>
+<label for="course">Select Programme *</label>
+<select id="course" required>
+<option value="">Choose Programme</option>
+<option>B.Tech</option>
+<option>BBA</option>
+<option>BCA</option>
+<option>MBA</option>
+</select>
+<br><br>
+<label for="marks">Percentage *</label>
+<input type="number" id="marks" min="0" max="100" required>
+<br><br>
+<label for="file">Upload Marksheet *</label>
+<input type="file" id="file" accept=".pdf,.jpg,.jpeg" required>
+</fieldset>
+<br>
+<button type="submit">Submit Application</button>
+</form>
+</main>
+<footer>
+<p>© 2026 University Admissions Office</p>
+<p>KL Admissions Portal</p>
+</footer>
+</body>
+</html>
